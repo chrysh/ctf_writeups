@@ -28,7 +28,7 @@ If we specified  `-mpreferred-stack-boundary=4`, the stack would be aligned to a
 
 Furthermore, we have to deactivate the ASLR. To do this system-wide, zero has to be written to the right proc file.
 ```
-sudo echo 0 >  /proc/sys/kernel/randomize_va_space
+% echo 0 | sudo tee /proc/sys/kernel/randomize_va_space
 ```
 
 ### Finding the right offset ###
