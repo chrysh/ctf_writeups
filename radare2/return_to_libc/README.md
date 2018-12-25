@@ -1,6 +1,6 @@
 ## Return-to-libc with radare2 with no ASLR ##
 
-The exploit is based on the descriptions by Saif El-Sherei: <https://www.exploit-db.com/docs/28553.pdf>.
+The exploit is based on the descriptions by Saif El-Sherei: <https://www.exploit-db.com/docs/english/28553-linux-classic-return-to-libc-&-return-to-libc-chaining-tutorial.pdf>.
 Read this pdf for details on how return to libc works in detail.
 This document focuses on using radare2 for the exploit.
 
